@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cehud25d7oekl"
-path="res://.godot/imported/creditos.png-6d2e9cbced3ab0464e5d35e4528c5652.ctex"
+uid="uid://dkphshvhjawuo"
+path="res://.godot/imported/CONFIG.png-d7d1a5fe93992eaa5507798c0949b518.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritestemp/creditos.png"
-dest_files=["res://.godot/imported/creditos.png-6d2e9cbced3ab0464e5d35e4528c5652.ctex"]
+source_file="res://cenas/TelaInicial/spritestemp/CONFIG.png"
+dest_files=["res://.godot/imported/CONFIG.png-d7d1a5fe93992eaa5507798c0949b518.ctex"]
 
 [params]
 

@@ -13,7 +13,6 @@ config_version=5
 config/name="rpg"
 run/main_scene="uid://sjoefumfmm6h"
 config/features=PackedStringArray("4.6", "C#", "Forward Plus")
-config/icon="res://icon.svg"
 
 [dotnet]
 

@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://ct5xc6xnlo46y"]
 
-[ext_resource type="Script" uid="uid://bp2vecf40cfcy" path="res://Config.cs" id="1_jitdt"]
-[ext_resource type="Texture2D" uid="uid://kefioheje50l" path="res://spritestemp/download.png" id="2_q6plf"]
-[ext_resource type="Texture2D" uid="uid://i1fe80e7dank" path="res://spritestemp/SAIR.png" id="3_j0524"]
+[ext_resource type="Script" uid="uid://bp2vecf40cfcy" path="res://cenas/Config/Config.cs" id="1_jitdt"]
+[ext_resource type="Texture2D" uid="uid://kefioheje50l" path="res://cenas/TelaInicial/spritestemp/download.png" id="2_q6plf"]
+[ext_resource type="Texture2D" uid="uid://i1fe80e7dank" path="res://cenas/TelaInicial/spritestemp/SAIR.png" id="3_j0524"]
 
 [node name="Control" type="Control" unique_id=1968342495]
 layout_mode = 3

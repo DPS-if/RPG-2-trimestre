@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djikww5snl67v"
-path="res://.godot/imported/comecar.png-c8367d9f509dda9f931dc98278a7e248.ctex"
+path="res://.godot/imported/comecar.png-38713935c370cf0ad24dc7f4d36fc442.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritestemp/comecar.png"
-dest_files=["res://.godot/imported/comecar.png-c8367d9f509dda9f931dc98278a7e248.ctex"]
+source_file="res://cenas/TelaInicial/spritestemp/comecar.png"
+dest_files=["res://.godot/imported/comecar.png-38713935c370cf0ad24dc7f4d36fc442.ctex"]
 
 [params]
 
