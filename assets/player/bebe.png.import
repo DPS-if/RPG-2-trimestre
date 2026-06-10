@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0faqsuxpyc42"
-path="res://.godot/imported/TailmapGrama.png-313484b1c31d2dbb35d81392526bcc60.ctex"
+uid="uid://cu7o5jgsy4neu"
+path="res://.godot/imported/bebe.png-7264713e2dc6b67a5c6c6d7cd7763323.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/TailmapGrama.png"
-dest_files=["res://.godot/imported/TailmapGrama.png-313484b1c31d2dbb35d81392526bcc60.ctex"]
+source_file="res://assets/player/bebe.png"
+dest_files=["res://.godot/imported/bebe.png-7264713e2dc6b67a5c6c6d7cd7763323.ctex"]
 
 [params]
 

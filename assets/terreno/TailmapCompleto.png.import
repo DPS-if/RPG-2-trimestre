@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c8es7haxavfh5"
-path="res://.godot/imported/Milho.png-7575ce169e299e2ccfc78b616ba55f6d.ctex"
+uid="uid://jmdlwmaj4nf4"
+path="res://.godot/imported/TailmapCompleto.png-3b6a21fe53d2b573f943a38e8a762213.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Milho.png"
-dest_files=["res://.godot/imported/Milho.png-7575ce169e299e2ccfc78b616ba55f6d.ctex"]
+source_file="res://assets/terreno/TailmapCompleto.png"
+dest_files=["res://.godot/imported/TailmapCompleto.png-3b6a21fe53d2b573f943a38e8a762213.ctex"]
 
 [params]
 

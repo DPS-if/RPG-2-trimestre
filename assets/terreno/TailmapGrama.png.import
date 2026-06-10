@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jmdlwmaj4nf4"
-path="res://.godot/imported/TailmapCompleto.png-e2ab9e3091f696d8237d1befa5475aca.ctex"
+uid="uid://b0faqsuxpyc42"
+path="res://.godot/imported/TailmapGrama.png-8b8ebbbcfe2b8b32f4be42a93e6df066.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/TailmapCompleto.png"
-dest_files=["res://.godot/imported/TailmapCompleto.png-e2ab9e3091f696d8237d1befa5475aca.ctex"]
+source_file="res://assets/terreno/TailmapGrama.png"
+dest_files=["res://.godot/imported/TailmapGrama.png-8b8ebbbcfe2b8b32f4be42a93e6df066.ctex"]
 
 [params]
 
