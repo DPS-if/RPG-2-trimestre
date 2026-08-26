@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0yvmdc14ih8s"
-path="res://.godot/imported/BebeSpritesheet.png-6452cbdde124266339a35b27353133dd.ctex"
+uid="uid://cut1viww4rsvk"
+path="res://.godot/imported/pistolabase.png-bc6303fea86670556432af2b2f29750b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/BebeSpritesheet.png"
-dest_files=["res://.godot/imported/BebeSpritesheet.png-6452cbdde124266339a35b27353133dd.ctex"]
+source_file="res://assets/player/pistolabase.png"
+dest_files=["res://.godot/imported/pistolabase.png-bc6303fea86670556432af2b2f29750b.ctex"]
 
 [params]
 

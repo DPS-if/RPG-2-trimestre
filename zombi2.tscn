@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://wwie870cnfn8"]
+
+[ext_resource type="Script" uid="uid://ccfualjv2effn" path="res://zombi_2.gd" id="1_1ygpl"]
+[ext_resource type="Texture2D" uid="uid://dh71bxu2sg0ml" path="res://assets/Planta02.1.png" id="1_7456o"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1ygpl"]
+
+[node name="Node2D" type="CharacterBody2D" unique_id=2123397856 groups=["enemies"]]
+script = ExtResource("1_1ygpl")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1390762223]
+position = Vector2(-1, -4)
+scale = Vector2(0.14648433, 0.14843743)
+texture = ExtResource("1_7456o")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1045522830]
+position = Vector2(-1, -1)
+shape = SubResource("CircleShape2D_1ygpl")

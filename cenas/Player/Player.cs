@@ -6,10 +6,16 @@ public partial class Player : CharacterBody2D
 	[Export]
 	public float Speed = 150.0f;
 
+	// Configurações de HP (10 hits de 10 de dano = 100 de vida total)
+	[Export]
+	public float MaxHp = 100.0f;
+	private float _currentHp;
+
 	private AnimatedSprite2D _animatedSprite;
 
 	public override void _Ready()
 	{
+		_currentHp = MaxHp;
 		_animatedSprite = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
 		
 		// Garante que a animação idle comece a rodar assim que o jogo inicia
@@ -40,5 +46,24 @@ public partial class Player : CharacterBody2D
 		}
 
 		MoveAndSlide();
+	}
+
+	// Função chamada pelos zumbis quando te atingem
+	public void TakeDamage(float amount)
+	{
+		_currentHp -= amount;
+		GD.Print("Vida atual do Player: " + _currentHp);
+		
+		if (_currentHp <= 0)
+		{
+			Die();
+		}
+	}
+
+	// Função chamada quando o HP chega a zero
+	private void Die()
+	{
+		GD.Print("O player morreu!");
+		GetTree().ReloadCurrentScene();
 	}
 }

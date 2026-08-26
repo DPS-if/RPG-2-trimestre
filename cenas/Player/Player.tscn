@@ -4,8 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://cu7o5jgsy4neu" path="res://assets/player/bebe.png" id="2_knbil"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_knbil"]
-radius = 21.0
-height = 60.0
+radius = 19.0
+height = 56.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wsff2"]
 atlas = ExtResource("2_knbil")
@@ -51,7 +51,7 @@ shape = SubResource("CapsuleShape2D_knbil")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=663369291]
 scale = Vector2(0.1, 0.1)
-zoom = Vector2(3.5, 3.5)
+zoom = Vector2(2, 2)
 position_smoothing_enabled = true
 position_smoothing_speed = 8.0
 
