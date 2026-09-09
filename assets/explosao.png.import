@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://7tid4i8yh6f3"
-path="res://.godot/imported/baszuca.png-10257ee184b2473801ee695ce8ee64d2.ctex"
+uid="uid://rfiambgy0v46"
+path="res://.godot/imported/explosao.png-58367380a282bc8bdcebb320b8a51151.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/baszuca.png"
-dest_files=["res://.godot/imported/baszuca.png-10257ee184b2473801ee695ce8ee64d2.ctex"]
+source_file="res://assets/explosao.png"
+dest_files=["res://.godot/imported/explosao.png-58367380a282bc8bdcebb320b8a51151.ctex"]
 
 [params]
 

@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://bou3kanyq23m0"]
+
+[sub_resource type="GDScript" id="GDScript_m33jh"]
+script/source = "extends Control
+
+var game_manager
+
+func _ready():
+	# 1. Força a tela a começar invisível assim que o jogo abre
+	visible = false
+	
+	game_manager = get_node_or_null(\"/root/GameManager\")
+	if game_manager:
+		game_manager.round_ended.connect(_on_round_ended)
+	
+	# 2. Acha o botão automaticamente na sua árvore de nós e conecta o clique sozinho
+	var btn = find_child(\"Button\", true, false)
+	if btn:
+		btn.pressed.connect(_on_button_pressed)
+
+func _on_round_ended():
+	show() # Só aparece quando o sinal do GameManager for disparado
+
+func _on_button_pressed():
+	hide()
+	if game_manager:
+		game_manager.advance_to_next_round()
+"
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_njd2c"]
+bg_color = Color(1, 1, 1, 1)
+
+[node name="RoundVictoryUI" type="Control" unique_id=1778484846]
+process_mode = 3
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = SubResource("GDScript_m33jh")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1037187212]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=1382184930]
+offset_right = 1166.0
+offset_bottom = 667.0
+color = Color(0, 0, 0, 1)
+
+[node name="Button" type="Button" parent="CanvasLayer" unique_id=1765020192]
+offset_left = 324.0
+offset_top = 363.0
+offset_right = 828.0
+offset_bottom = 430.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 34
+theme_override_styles/normal = SubResource("StyleBoxFlat_njd2c")
+text = "Avançar para Próxima Rodada"
+
+[connection signal="pressed" from="CanvasLayer/Button" to="." method="_on_button_pressed"]

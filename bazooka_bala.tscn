@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cm3t6cacfeg7r"]
+
+[ext_resource type="Texture2D" uid="uid://duptbn1e7cgg2" path="res://assets/player/missel.png" id="1_k4bst"]
+[ext_resource type="Script" uid="uid://btrj6gjjmobdw" path="res://bazooka_bala.gd" id="1_kqdbk"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_k4bst"]
+radius = 5.0
+height = 24.0
+
+[node name="Node2D" type="Area2D" unique_id=1255920569]
+script = ExtResource("1_kqdbk")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1298792544]
+position = Vector2(0.6864116, 0.33201337)
+rotation = -1.5682153
+scale = Vector2(0.008852755, 0.009183561)
+texture = ExtResource("1_k4bst")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1570469465]
+shape = SubResource("CapsuleShape2D_k4bst")

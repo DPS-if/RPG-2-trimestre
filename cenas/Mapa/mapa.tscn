@@ -6,6 +6,8 @@
 [ext_resource type="Script" uid="uid://by1irbkib8ikl" path="res://cenas/Mapa/pistolabase.gd" id="4_l5fhv"]
 [ext_resource type="Texture2D" uid="uid://cut1viww4rsvk" path="res://assets/player/pistolabase.png" id="5_3my3q"]
 [ext_resource type="Script" uid="uid://dhnirlw4nixht" path="res://cenas/Mapa/enemy_spawner.gd" id="6_l5fhv"]
+[ext_resource type="PackedScene" uid="uid://du14b600rw753" path="res://ui.tscn" id="7_8dvo0"]
+[ext_resource type="PackedScene" uid="uid://cm3t6cacfeg7r" path="res://bazooka_bala.tscn" id="7_h7hkm"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t36bm"]
 texture = ExtResource("1_t36bm")
@@ -137,6 +139,9 @@ position = Vector2(19.625, 5.4999857)
 scale = Vector2(0.028076176, 0.03027341)
 texture = ExtResource("5_3my3q")
 script = ExtResource("4_l5fhv")
+bazooka_bullet_scene = ExtResource("7_h7hkm")
+
+[node name="UI" parent="PlayerBebê/Player" unique_id=1767683667 instance=ExtResource("7_8dvo0")]
 
 [node name="SpawnPoints" type="Node2D" parent="." unique_id=1160786884]
 

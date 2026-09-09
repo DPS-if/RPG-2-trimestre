@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://ch0j25vigmhbv" path="res://assets/Planta03.png" id="1_g080o"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_eende"]
-size = Vector2(21.25, 27.5)
+size = Vector2(17, 22)
 
 [node name="Node2D" type="CharacterBody2D" unique_id=1008586295 groups=["enemies"]]
 script = ExtResource("1_eende")
@@ -15,5 +15,5 @@ scale = Vector2(0.14257813, 0.1484375)
 texture = ExtResource("1_g080o")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=525784175]
-position = Vector2(-1, -7)
+position = Vector2(-0.5, -8)
 shape = SubResource("RectangleShape2D_eende")
