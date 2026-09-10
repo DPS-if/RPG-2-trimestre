@@ -20,8 +20,22 @@ texture = ExtResource("2_w3uxd")
 
 [node name="sairBtn" type="Button" parent="TextureRect" unique_id=1468447219]
 layout_mode = 0
-offset_left = 1059.0
-offset_top = 601.0
+offset_left = 1011.0
+offset_top = 557.0
 offset_right = 1129.0
 offset_bottom = 632.0
+theme_override_font_sizes/font_size = 26
 text = "VOLTAR"
+
+[node name="Label" type="Label" parent="." unique_id=1953730775]
+layout_mode = 0
+offset_left = 362.0
+offset_top = 176.0
+offset_right = 802.0
+offset_bottom = 285.0
+theme_override_font_sizes/font_size = 42
+text = "Feito por:
+
+Mateus Amaral 
+Diego Stoque"
+horizontal_alignment = 1

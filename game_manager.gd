@@ -11,3 +11,9 @@ func _process(delta: float) -> void:
 func update_hp(curr: float, max_hp: float) -> void:
 	player_hp = curr
 	player_max_hp = max_hp
+
+# Adicione esta função para resetar os dados ao iniciar/reiniciar o jogo
+func reset_game() -> void:
+	elapsed_time = 0.0
+	player_hp = 100.0
+	player_max_hp = 100.0

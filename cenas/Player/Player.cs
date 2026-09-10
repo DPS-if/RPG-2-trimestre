@@ -72,6 +72,15 @@ public partial class Player : CharacterBody2D
 	private void Die()
 	{
 		GD.Print("O player morreu!");
-		GetTree().ReloadCurrentScene();
+		
+		// Carrega e instancia a cena de Game Over em C#
+		var gameOverScene = GD.Load<PackedScene>("res://game_over.tscn");
+		if (gameOverScene != null)
+		{
+			var gameOverInstance = gameOverScene.Instantiate();
+			GetTree().CurrentScene.AddChild(gameOverInstance);
+		}
+		
+		QueueFree();
 	}
-}
+	}

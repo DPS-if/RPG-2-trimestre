@@ -21,8 +21,21 @@ texture = ExtResource("2_q6plf")
 
 [node name="voltar_btn" type="TextureButton" parent="TextureRect" unique_id=2126857796]
 layout_mode = 0
-offset_left = 519.0
-offset_top = 280.0
-offset_right = 598.0
-offset_bottom = 320.0
+offset_left = 529.0
+offset_top = 470.0
+offset_right = 608.0
+offset_bottom = 510.0
 texture_normal = ExtResource("3_j0524")
+
+[node name="Label" type="Label" parent="." unique_id=937057248]
+layout_mode = 0
+offset_left = 172.0
+offset_top = 183.0
+offset_right = 973.0
+offset_bottom = 342.0
+theme_override_font_sizes/font_size = 32
+text = "WASD para se movimentar
+A arma evoluirá com o tempo
+A quantidade de monstros aumentará com o tempo"
+horizontal_alignment = 1
+vertical_alignment = 1
